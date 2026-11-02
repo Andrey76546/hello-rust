@@ -1,0 +1,7 @@
+target/
+.git/
+.github/
+screenshots/
+*.md
+.gitignore
+.dockerignore
