@@ -81,6 +81,7 @@ Workflow [Rust CI/CD](https://github.com/Andrey76546/hello-rust/actions/workflow
 
 - Репозиторий: [Andrey76546/hello-rust](https://github.com/Andrey76546/hello-rust)
 - Workflow: [Rust CI/CD](https://github.com/Andrey76546/hello-rust/actions/workflows/ci.yml)
+- Успешный запуск: [Rust CI/CD #1](https://github.com/Andrey76546/hello-rust/actions/runs/41417859176)
 - GHCR-пакет: [hello-rust](https://github.com/users/Andrey76546/packages/container/package/hello-rust)
 - Образ: `ghcr.io/andrey76546/hello-rust:latest`
 
@@ -93,9 +94,9 @@ docker run --rm ghcr.io/andrey76546/hello-rust:latest
 
 ## Настоящие скриншоты
 
-![Успешные тесты, сборка и запуск Docker-контейнера](screenshots/01-tests-and-docker.png)
+![Успешные тесты и запуск Docker-контейнера](screenshots/01-tests-and-docker.png)
 
-На снимке показаны реальные локальные тесты, сборка и запуск образа.
+На снимке показаны реальные локальные модульные и интеграционные тесты, а также запуск собранного образа.
 
 ![Успешный workflow Rust CI/CD](screenshots/02-github-actions.png)
 
@@ -103,7 +104,7 @@ docker run --rm ghcr.io/andrey76546/hello-rust:latest
 
 ![Проверка опубликованного образа GHCR](screenshots/03-ghcr-image.png)
 
-На снимке показаны загрузка и запуск образа из GHCR.
+На снимке показан публичный пакет GHCR с тегами `latest` и коротким SHA.
 
 ## Вывод
 
